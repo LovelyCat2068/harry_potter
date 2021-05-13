@@ -1,0 +1,27 @@
+#body_background{
+    background-image: url("Bg.jpeg");
+    background-size: cover;
+}
+
+.bg_div{
+    color: white;
+}
+
+.form_wrapper{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    max-width: 500px;
+    height: fit-content;
+    max-height: 500px;
+    margin-top: 270px;
+    margin-bottom: 270px;
+    margin-right: 270px;
+    margin-left: 520px;
+}
+
+.change{
+    height: 50;
+    height: 50;
+    background-color: green;
+    color: white;
+}

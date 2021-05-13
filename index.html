@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hogwarts Admission Form</title>
+    <script src="function.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body_background">
+
+    <div class="bg_div">
+        <div class="form_wrapper">
+            <center>
+        <h2>Your Name:</h2><input class="change" placeholder="Your Name"></input>
+        <br>
+        <h2>Is Any/Both Of The Parent Muggle?</h2>
+        <br>
+        <input class="change" name="yes" type="radio">Yes</input>    
+        <input class="change" name="yes" type="radio">No</input>
+        <br>
+        <h2>Which Elements You Naturally Atract To:</h2>
+        <br>
+        <input class="change" type="checkbox">Air</input>
+        <input class="change" type="checkbox">Water</input>
+        <input class="change" type="checkbox">Fire</input>
+        <br>
+        <h2>Which House Do You Want To Be Sorted Into?</h2>
+        <br>
+        <select class="change" name="house">
+            <option value="gryffindor">Gryffindor</option>
+            <option value="slytherin">Slytherin</option>
+            <option value="hufflepuff">Hufflepuff</option>
+            <option value="ravenclaw">Ravenclaw</option>
+        </select>
+        <br>
+        <br>
+        <button class="change" type="submit" onclick="change_html()">Submit</button>
+    </center>
+    </div>
+    </div>
+
+</body>
+</html>
